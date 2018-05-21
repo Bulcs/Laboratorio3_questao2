@@ -1,0 +1,3324 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\info 
+{\title {\comment Lab 3 - Questao 2 e Questao 3 }Lab 3 - Questao 2 e Questao 3}
+{\comment Generated byDoxgyen. }
+{\creatim \yr2018\mo5\dy20\hr21\min2\sec56}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Lab 3 - Questao 2 e Questao 3}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Sun May 20 2018 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Conta} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b cabecalho.cpp} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7ao do cabe\'E7alho })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b cabecalho.h} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7ao do m\'E9todo cabeccalho })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b conta.cpp} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7ao do conta })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b conta.h} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7ao dos param e m\'E9todos da classe conta })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b main.cpp} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7ao do main })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b procedimentos.cpp} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7ao dos procedimentos })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b procedimentos.h} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7ao dos m\'E9todos dos par\'E2metros })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Conta Class Reference\par \pard\plain 
+{\tc\tcl2 \v Conta}
+{\xe \v Conta}
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+\par
+{
+{\f2 #include <conta.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Conta} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Implementa\'E7\'E3o do contrutor. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~Conta} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getagencia} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada dos getters e setters da classe conta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setagencia} (int agencia_)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getTipo} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTipo} (int tipo_da_conta_)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getLimite} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setLimite} (int limite_)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getnumero} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setnumero} (int numero_)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getsaldo} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setsaldo} (int saldo_)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setextrato} (int n, int a)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b getextrato} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo getextrato da classe {\b Conta} }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v Conta\:Conta}
+{\xe \v Conta\:Conta}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Conta::Conta ()}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Implementa\'E7\'E3o do contrutor. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada no construct \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    13 \{\}\par
+}
+}
+{\xe \v ~Conta\:Conta}
+{\xe \v Conta\:~Conta}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Conta::~Conta ()}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    14 \{\}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v getagencia\:Conta}
+{\xe \v Conta\:getagencia}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Conta::getagencia ()}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada dos getters e setters da classe conta }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    16 \{return agencia;\}\par
+}
+}
+{\xe \v getextrato\:Conta}
+{\xe \v Conta\:getextrato}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Conta::getextrato ()}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo getextrato da classe {\b Conta} }}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    40                       \{\par
+   41     if(qtdsaque>0)\{\par
+   42         for(int i=0;i<qtdsaque;i++)\{\par
+   43             cout<<"Voc\'EA fez "<<qtdsaque<<" saques, o "<<i+1<< " no valor de "<<saque[i]<<endl;\par
+   44         \}\par
+   45     \}\par
+   46     if(qtddeposito>0)\{\par
+   47         for(int i=0;i<qtddeposito;i++)\{\par
+   48             cout<<"Voc\'EA fez "<<qtddeposito<<" dep\'F3sitos, o "<<i+1<< " no valor de "<<deposito[i]<<endl;\par
+   49         \}\par
+   50     \}\par
+   51     if(qtdtransferencia>0)\{\par
+   52         for(int i=0;i<qtdtransferencia;i++)\{\par
+   53             cout<<"Voc\'EA fez "<<qtdtransferencia<<" transfer\'EAncias, o "<<i+1<< " no valor de "<<transferencia[i]<<endl;\par
+   54         \}\par
+   55     \}\par
+   56 \}\par
+}
+}
+{\xe \v getLimite\:Conta}
+{\xe \v Conta\:getLimite}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Conta::getLimite ()}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    19 \{return limite;\}\par
+}
+}
+{\xe \v getnumero\:Conta}
+{\xe \v Conta\:getnumero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Conta::getnumero ()}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    17 \{return numero;\}\par
+}
+}
+{\xe \v getsaldo\:Conta}
+{\xe \v Conta\:getsaldo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Conta::getsaldo ()}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    18 \{return saldo;\}\par
+}
+}
+{\xe \v getTipo\:Conta}
+{\xe \v Conta\:getTipo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Conta::getTipo ()}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    20 \{return tipo_da_conta;\}\par
+}
+}
+{\xe \v setagencia\:Conta}
+{\xe \v Conta\:setagencia}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Conta::setagencia (int  {\i agencia_})}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    21 \{agencia=agencia_;\}\par
+}
+}
+{\xe \v setextrato\:Conta}
+{\xe \v Conta\:setextrato}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Conta::setextrato (int  {\i n}, int  {\i a})}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7\'E3o de uma condi\'E7\'E3o \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    26                                   \{\par
+   28     if(n==3)\{\par
+   29         saque[qtdsaque]=a;\par
+   30         qtdsaque++;\par
+   31     \}else if(n==4)\{\par
+   32         deposito[qtddeposito]=a;\par
+   33         qtddeposito++;\par
+   34     \}else if(n==5)\{\par
+   35         transferencia[qtdtransferencia]=a;\par
+   36         qtdtransferencia++;\par
+   37     \}\par
+   38 \}\par
+}
+}
+{\xe \v setLimite\:Conta}
+{\xe \v Conta\:setLimite}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Conta::setLimite (int  {\i limite_})}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    24 \{limite = limite_;\}\par
+}
+}
+{\xe \v setnumero\:Conta}
+{\xe \v Conta\:setnumero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Conta::setnumero (int  {\i numero_})}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    22 \{numero=numero_;\}\par
+}
+}
+{\xe \v setsaldo\:Conta}
+{\xe \v Conta\:setsaldo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Conta::setsaldo (int  {\i saldo_})}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    23 \{saldo=saldo_;\}\par
+}
+}
+{\xe \v setTipo\:Conta}
+{\xe \v Conta\:setTipo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Conta::setTipo (int  {\i tipo_da_conta_})}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    25 \{tipo_da_conta = tipo_da_conta_;\}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b conta.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b conta.cpp}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+cabecalho.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v cabecalho.cpp}
+{\xe \v cabecalho.cpp}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do cabe\'E7alho }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}\par
+{\f2 #include <vector>}\par
+{\f2 #include "cabecalho.h"}\par
+{\f2 #include "procedimentos.h"}\par
+{\f2 #include "conta.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cabeccalho} ({\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Instancia\'E7\'E3o do m\'E9todo cabeccalho. }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do cabe\'E7alho \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Since:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 12/05/2018 \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Date:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 15/04/2018 \par
+}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v cabeccalho\:cabecalho.cpp}
+{\xe \v cabecalho.cpp\:cabeccalho}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void cabeccalho ({\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Instancia\'E7\'E3o do m\'E9todo cabeccalho. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7\'E3o do m\'E9todo cabe\'E7alho, em que recebe um ponteiro para a classe conta. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+cria\'E7\'E3o dos par\'E2metros int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i n} \cell }{representa o n\'FAmero para usar o menu \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i c} \cell }{par\'E2metro que receber\'E1 a ag\'EAncia ao chamar {\b criarconta()} \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i s} \cell }{representa o saque \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i agencia} \cell }{representa a Ag\'EAncia \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i numero} \cell }{representa o numero da conta \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i numero1} \cell }{representa o numero da conta \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i agencia1} \cell }{representa o numero da conta\cell }
+{\row }
+}
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ cria\'E7\'E3o do la\'E7o que repetir\'E1 o programa \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro n \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 1, chama o m\'E9todo criarconta \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo criarconta, usando c e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ somando +1 a c para mudar a agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 2, chama o m\'E9todo extrato \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do modo extrado, usando agencia e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 3, chama o m\'E9todo saque \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro s \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo saque, usando agencia, s e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 4, chama o m\'E9todo depositar \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro s \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo depositar, com agencia, s e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 5, chama o m\'E9todo emissaosaldo \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo emissaosaldo, com agencia e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 6, chama o m\'E9todo transferencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia1 - da conta no qual deseja transferir \par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero1 - da conta no qual deseja transferir \par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro s \par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo transferencia, com agencia, conta, agencia1,s como par\'E2metros \par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 7 \par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+ leitura do par\'E2metro numero \par
+ chamada do m\'E9todo deletarconta, com agencia e conta como par\'E2metros \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    15                              \{\par
+   26     int n,c=0,s,agencia,numero,numero1,agencia1;\par
+   28     while(n!=8)\{\par
+   29     cout <<"|-------------------------------------------|" << endl; \par
+   30     cout <<"|-----Digite um dos n\'FAmeros para prosseguir:|"<<endl;\par
+   31     cout <<"|-------------1-Criar Conta:----------------|"<<endl;\par
+   32     cout <<"|-------------2-Extrato da conta:-----------|"<<endl;\par
+   33     cout <<"|-------------3-Saque:----------------------|"<<endl;\par
+   34     cout <<"|-------------4-Dep\'F3sito:-------------------|"<<endl;\par
+   35     cout <<"|-------------5-Emissao do Saldo:-----------|"<<endl;\par
+   36     cout <<"|-------------6-Transfer\'EAncia:--------------|"<<endl;\par
+   37     cout <<"|-------------7-Excluir Conta:--------------|"<<endl;\par
+   38     cout <<"|-------------8-Sair------------------------|"<<endl;\par
+   39     cout <<"|-------------------------------------------|" << endl; \par
+   41     cin>>n;\par
+   43     if(n==1)\{\par
+   44         cout << "\\n" << endl;\par
+   46         criarconta(c,conta);\par
+   48         c++;\par
+   49         cout << "\\n" << endl;\par
+   50     \}\par
+   52     else if(n==2)\{\par
+   53         cout<<"----------------------------------------------------------"<<endl;\par
+   54         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+   56         cin>>agencia;\par
+   57         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+   59         cin>>numero;\par
+   61         extrato(agencia,conta);\par
+   62         cout<<"----------------------------------------------------------"<<endl;\par
+   63     \}\par
+   65     else if(n==3)\{\par
+   66         cout<<"----------------------------------------------------------"<<endl;\par
+   67         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+   69         cin>>agencia;\par
+   70         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+   72         cin>>numero;\par
+   73         cout <<"Quando deseja sacar?"<<endl;\par
+   75         cin>>s;\par
+   77         saque(agencia,s,conta);\par
+   78         cout<<"----------------------------------------------------------"<<endl;\par
+   79     \}\par
+   81     else if(n==4)\{\par
+   82         cout<<"----------------------------------------------------------"<<endl;\par
+   83         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+   85         cin>>agencia;\par
+   86         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+   88         cin>>numero;\par
+   89         cout <<"Quanto deseja depositar?"<<endl;\par
+   91         cin>>s;\par
+   93         depositar(agencia,s,conta);\par
+   94         cout<<"----------------------------------------------------------"<<endl;\par
+   95     \}\par
+   97     else if(n==5)\{\par
+   98         cout<<"----------------------------------------------------------"<<endl;\par
+   99         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+  101         cin>>agencia;\par
+  102         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+  104         cin>>numero;\par
+  106         emissaosaldo(agencia,conta);\par
+  107         cout<<"----------------------------------------------------------"<<endl;\par
+  108     \}\par
+  110     else if(n==6)\{\par
+  111         cout<<"----------------------------------------------------------"<<endl;\par
+  112         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+  114         cin>>agencia;\par
+  115         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+  117         cin>>numero;\par
+  118         cout <<"Para qual ag\'EAncia deseja tranferir?"<<endl;\par
+  120         cin>>agencia1;\par
+  121         cout <<"Qual o n\'FAmero da conta em que deseja transferir?"<<endl;\par
+  123         cin>>numero1;\par
+  124         cout <<"Quanto deseja transferir?"<<endl;\par
+  126         cin>>s;\par
+  128         transferencia(agencia,conta,agencia1,s);\par
+  129         cout<<"----------------------------------------------------------"<<endl;\par
+  130     \}\par
+  132     else if(n == 7)\{\par
+  133         cout << "Qual conta deseja deletar?\\nDigite a agencia da conta: "<< endl;\par
+  135         cin >> agencia;\par
+  136         cout << "Digite o numero da conta: " << endl;\par
+  138         cin >> numero;\par
+  140         deletarconta(agencia,conta);\par
+  141 \par
+  142         cout << "Conta agencia: " << agencia << " numero da conta: " << numero << " foi deletada!"<< endl;  \par
+  143     \}\par
+  144 \}\par
+  145 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+cabecalho.h File Reference\par \pard\plain 
+{\tc\tcl2 \v cabecalho.h}
+{\xe \v cabecalho.h}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do m\'E9todo cabeccalho }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "conta.h"}\par
+{\f2 #include "procedimentos.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cabeccalho} ({\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7\'E3o do m\'E9todo cabe\'E7alho, em que recebe um ponteiro para a classe conta. }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do m\'E9todo cabeccalho \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Since:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 12/05/2018 \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Date:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 15/04/2018 \par
+}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v cabeccalho\:cabecalho.h}
+{\xe \v cabecalho.h\:cabeccalho}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void cabeccalho ({\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7\'E3o do m\'E9todo cabe\'E7alho, em que recebe um ponteiro para a classe conta. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cria\'E7\'E3o do m\'E9todo cabe\'E7alho, em que recebe um ponteiro para a classe conta. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+cria\'E7\'E3o dos par\'E2metros int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i n} \cell }{representa o n\'FAmero para usar o menu \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i c} \cell }{par\'E2metro que receber\'E1 a ag\'EAncia ao chamar {\b criarconta()} \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i s} \cell }{representa o saque \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i agencia} \cell }{representa a Ag\'EAncia \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i numero} \cell }{representa o numero da conta \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i numero1} \cell }{representa o numero da conta \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i agencia1} \cell }{representa o numero da conta\cell }
+{\row }
+}
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ cria\'E7\'E3o do la\'E7o que repetir\'E1 o programa \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro n \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 1, chama o m\'E9todo criarconta \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo criarconta, usando c e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ somando +1 a c para mudar a agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 2, chama o m\'E9todo extrato \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do modo extrado, usando agencia e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 3, chama o m\'E9todo saque \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro s \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo saque, usando agencia, s e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 4, chama o m\'E9todo depositar \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro s \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo depositar, com agencia, s e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 5, chama o m\'E9todo emissaosaldo \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo emissaosaldo, com agencia e conta como par\'E2metros \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 6, chama o m\'E9todo transferencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro agencia1 - da conta no qual deseja transferir \par
+\par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro numero1 - da conta no qual deseja transferir \par
+\par
+\par
+\par
+\par
+\par
+ leitura do par\'E2metro s \par
+\par
+\par
+\par
+\par
+ chamada do m\'E9todo transferencia, com agencia, conta, agencia1,s como par\'E2metros \par
+\par
+\par
+\par
+ caso seja digitado o n\'FAmero 7 \par
+\par
+\par
+ leitura do par\'E2metro agencia \par
+\par
+ leitura do par\'E2metro numero \par
+ chamada do m\'E9todo deletarconta, com agencia e conta como par\'E2metros \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    15                              \{\par
+   26     int n,c=0,s,agencia,numero,numero1,agencia1;\par
+   28     while(n!=8)\{\par
+   29     cout <<"|-------------------------------------------|" << endl; \par
+   30     cout <<"|-----Digite um dos n\'FAmeros para prosseguir:|"<<endl;\par
+   31     cout <<"|-------------1-Criar Conta:----------------|"<<endl;\par
+   32     cout <<"|-------------2-Extrato da conta:-----------|"<<endl;\par
+   33     cout <<"|-------------3-Saque:----------------------|"<<endl;\par
+   34     cout <<"|-------------4-Dep\'F3sito:-------------------|"<<endl;\par
+   35     cout <<"|-------------5-Emissao do Saldo:-----------|"<<endl;\par
+   36     cout <<"|-------------6-Transfer\'EAncia:--------------|"<<endl;\par
+   37     cout <<"|-------------7-Excluir Conta:--------------|"<<endl;\par
+   38     cout <<"|-------------8-Sair------------------------|"<<endl;\par
+   39     cout <<"|-------------------------------------------|" << endl; \par
+   41     cin>>n;\par
+   43     if(n==1)\{\par
+   44         cout << "\\n" << endl;\par
+   46         criarconta(c,conta);\par
+   48         c++;\par
+   49         cout << "\\n" << endl;\par
+   50     \}\par
+   52     else if(n==2)\{\par
+   53         cout<<"----------------------------------------------------------"<<endl;\par
+   54         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+   56         cin>>agencia;\par
+   57         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+   59         cin>>numero;\par
+   61         extrato(agencia,conta);\par
+   62         cout<<"----------------------------------------------------------"<<endl;\par
+   63     \}\par
+   65     else if(n==3)\{\par
+   66         cout<<"----------------------------------------------------------"<<endl;\par
+   67         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+   69         cin>>agencia;\par
+   70         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+   72         cin>>numero;\par
+   73         cout <<"Quando deseja sacar?"<<endl;\par
+   75         cin>>s;\par
+   77         saque(agencia,s,conta);\par
+   78         cout<<"----------------------------------------------------------"<<endl;\par
+   79     \}\par
+   81     else if(n==4)\{\par
+   82         cout<<"----------------------------------------------------------"<<endl;\par
+   83         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+   85         cin>>agencia;\par
+   86         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+   88         cin>>numero;\par
+   89         cout <<"Quanto deseja depositar?"<<endl;\par
+   91         cin>>s;\par
+   93         depositar(agencia,s,conta);\par
+   94         cout<<"----------------------------------------------------------"<<endl;\par
+   95     \}\par
+   97     else if(n==5)\{\par
+   98         cout<<"----------------------------------------------------------"<<endl;\par
+   99         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+  101         cin>>agencia;\par
+  102         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+  104         cin>>numero;\par
+  106         emissaosaldo(agencia,conta);\par
+  107         cout<<"----------------------------------------------------------"<<endl;\par
+  108     \}\par
+  110     else if(n==6)\{\par
+  111         cout<<"----------------------------------------------------------"<<endl;\par
+  112         cout <<"Qual a ag\'EAncia da conta?"<<endl;\par
+  114         cin>>agencia;\par
+  115         cout <<"Qual o n\'FAmero da conta?"<<endl;\par
+  117         cin>>numero;\par
+  118         cout <<"Para qual ag\'EAncia deseja tranferir?"<<endl;\par
+  120         cin>>agencia1;\par
+  121         cout <<"Qual o n\'FAmero da conta em que deseja transferir?"<<endl;\par
+  123         cin>>numero1;\par
+  124         cout <<"Quanto deseja transferir?"<<endl;\par
+  126         cin>>s;\par
+  128         transferencia(agencia,conta,agencia1,s);\par
+  129         cout<<"----------------------------------------------------------"<<endl;\par
+  130     \}\par
+  132     else if(n == 7)\{\par
+  133         cout << "Qual conta deseja deletar?\\nDigite a agencia da conta: "<< endl;\par
+  135         cin >> agencia;\par
+  136         cout << "Digite o numero da conta: " << endl;\par
+  138         cin >> numero;\par
+  140         deletarconta(agencia,conta);\par
+  141 \par
+  142         cout << "Conta agencia: " << agencia << " numero da conta: " << numero << " foi deletada!"<< endl;  \par
+  143     \}\par
+  144 \}\par
+  145 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+conta.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v conta.cpp}
+{\xe \v conta.cpp}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do conta }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}\par
+{\f2 #include "conta.h"}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Since:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 12/05/2018 \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Date:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 15/04/2018 \par
+}}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+conta.h File Reference\par \pard\plain 
+{\tc\tcl2 \v conta.h}
+{\xe \v conta.h}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao dos param e m\'E9todos da classe conta }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Conta}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao dos param e m\'E9todos da classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Since:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 12/05/2018 \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Date:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 15/04/2018 \par
+}}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+main.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v main.cpp}
+{\xe \v main.cpp}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do main }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}\par
+{\f2 #include "cabecalho.h"}\par
+{\f2 #include "conta.h"}\par
+{\f2 #include "procedimentos.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Chamada do main. }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao do main \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Since:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 12/05/2018 \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Date:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 15/04/2018 \par
+}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v main\:main.cpp}
+{\xe \v main.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main ()}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Chamada do main. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Instancia\'E7\'E3o do objeto conta \par
+ chamando o m\'E9todo cabeccalho que recebe como par\'E2metro conta \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    14           \{\par
+   16     Conta *conta;\par
+   17     conta=new Conta[100];\par
+   19     cabeccalho(conta);\par
+   20     return 0;\par
+   21 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+procedimentos.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v procedimentos.cpp}
+{\xe \v procedimentos.cpp}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao dos procedimentos }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "cabecalho.h"}\par
+{\f2 #include "conta.h"}\par
+{\f2 #include <iostream>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b criarconta} (int n, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo criarconta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b deletarconta} (int a, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo deletarconta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b extrato} (int n, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo extrato }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b saque} (int agencia, int s, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo saque }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b depositar} (int agencia, int s, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo depositar }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b emissaosaldo} (int agencia, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo emissaosaldo }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b transferencia} (int agencia, {\b Conta} *conta, int agencia1, int s)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo transferencia }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao dos procedimentos \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Since:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 12/05/2018 \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Date:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 15/04/2018 \par
+}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v criarconta\:procedimentos.cpp}
+{\xe \v procedimentos.cpp\:criarconta}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void criarconta (int  {\i n}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo criarconta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo criarconta, recebendo como par\'E2metro um n e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7\'E3o dos par\'E2metros int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i limite} \cell }{que representa o limite da conta \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tipo} \cell }{que representa o tipo da conta(conta corrente ou poupan\'E7a)\cell }
+{\row }
+}
+Cria\'E7\'E3o de uma condicional, caso tipo seja igual a 1, cria-se a conta corrente \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setagencia, que recebe o par\'E2metro n \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setnumero, que recebe o par\'E2metro 1000-n \par
+\par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setsaldo, que recebe o par\'E2metro 0 \par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setLimite, que recebe o par\'E2metro limite \par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setTipo, que recebe o par\'E2metro tipo \par
+\par
+\par
+\par
+ na conta determinada por n, chama o setagencia, que recebe o par\'E2metro n \par
+\par
+\par
+ na conta determinada por n, chama o setnumero, que recebe o par\'E2metro 1000-n \par
+\par
+ na conta determinada por n, chama o setsaldo, que recebe o par\'E2metro 0 \par
+ na conta determinada por n, chama o setTipo, que recebe o par\'E2metro tipo \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    13                                     \{\par
+   19     int limite,tipo;\par
+   20     cout << "Qual o tipo da conta (1 - Conta corrente/2 - Conta poupan\'E7a)" <<endl;\par
+   21     cin >> tipo;\par
+   23     if(tipo == 1)\{\par
+   24     cout << "Qual o limite da conta(1 - Saques ilimitados/2 - Saque de at\'E9 1000R$)" << endl;\par
+   25     cin >> limite;\par
+   27         conta[n].setagencia(n);\par
+   28         cout <<"\\nSua conta foi criada:"<<endl;\par
+   29         cout <<"Ag\'EAncia: "<<n<<endl;\par
+   31         conta[n].setnumero(1000-n);\par
+   32         cout <<"N\'FAmero da conta: "<<1000-n<<endl;\par
+   34         conta[n].setsaldo(0);\par
+   35         cout <<"Seu saldo atual: "<<0<<endl;\par
+   37         conta[n].setLimite(limite);\par
+   38         cout << "Seu limite \'E9 do tipo " << limite << endl;\par
+   40         conta[n].setTipo(tipo);\par
+   41         cout << "Seu tipo de conta \'E9 Corrente" <<endl;\par
+   42     \}\par
+   43 \par
+   44     else\{\par
+   46         conta[n].setagencia(n);\par
+   47         cout <<"\\nSua conta foi criada:"<<endl;\par
+   48         cout <<"Ag\'EAncia: "<<n<<endl;\par
+   50         conta[n].setnumero(1000-n);\par
+   51         cout <<"N\'FAmero da conta: "<<1000-n<<endl;\par
+   53         conta[n].setsaldo(0);\par
+   54         cout <<"Seu saldo atual: "<<0<<endl;\par
+   55         conta[n].setTipo(tipo);\par
+   57         cout << "Seu tipo de conta \'E9 poupan\'E7a" <<endl;\par
+   58 \}\par
+   59 \}\par
+}
+}
+{\xe \v deletarconta\:procedimentos.cpp}
+{\xe \v procedimentos.cpp\:deletarconta}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void deletarconta (int  {\i a}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo deletarconta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo deletarconta, recebendo como par\'E2metro um a e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o a agencia, numero da conta e saldo para -1 \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    61                                      \{\par
+   63     conta[a].setagencia(-1);\par
+   64     conta[a].setnumero(-1);\par
+   65     conta[a].setsaldo(-1);\par
+   66 \}\par
+}
+}
+{\xe \v depositar\:procedimentos.cpp}
+{\xe \v procedimentos.cpp\:depositar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void depositar (int  {\i agencia}, int  {\i s}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo depositar }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo depositar, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+se a conta tiver sido deletada informar \par
+\par
+\par
+ novo recebe conta, que chama o getsaldo + s(saque) \par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+ chama a conta, que chama o setextrato \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   139                                                 \{\par
+  140     int novo;\par
+  142     if(conta[agencia].getagencia() < 0)\{\par
+  143         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  144     \}\par
+  145     else\{\par
+  147         novo=conta[agencia].getsaldo()+s;\par
+  148         if(s<0)\{\par
+  149             cout <<"N\'E3o foi poss\'EDvel, valor digitado negativo"<<endl;\par
+  150         \}else\{\par
+  152             conta[agencia].setsaldo(novo);\par
+  153             cout <<"Dep\'F3sito realizado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+  154         \}\par
+  156         conta[agencia].setextrato(4,s);\par
+  157         \}\par
+  158 \}\par
+}
+}
+{\xe \v emissaosaldo\:procedimentos.cpp}
+{\xe \v procedimentos.cpp\:emissaosaldo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void emissaosaldo (int  {\i agencia}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo emissaosaldo }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo emissaosaldo, recebendo como par\'E2metro uma agencia e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+se a conta tiver sido deletada informar \par
+ Imprime um cout informando o saldo da conta \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   160                                             \{\par
+  162     if(conta[agencia].getagencia() < 0)\{\par
+  163         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  164     \}\par
+  165     else\{\par
+  167     cout <<"Seu saldo atual: "<<conta[agencia].getsaldo()<<"RS"<<endl;\par
+  168     \}\par
+  169 \}\par
+}
+}
+{\xe \v extrato\:procedimentos.cpp}
+{\xe \v procedimentos.cpp\:extrato}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void extrato (int  {\i n}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo extrato }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo extrato, recebendo como par\'E2metro um n e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+se a conta tiver sido deletada informar \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    68                                  \{\par
+   70     if(conta[n].getagencia() < 0)\{\par
+   71         cout << "A conta n\'E3o existe mais!"<< endl;\par
+   72     \}\par
+   73     conta[n].getextrato();\par
+   74 \}\par
+}
+}
+{\xe \v saque\:procedimentos.cpp}
+{\xe \v procedimentos.cpp\:saque}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void saque (int  {\i agencia}, int  {\i s}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo saque }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo saque, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i novo} \cell }{\cell }
+{\row }
+}
+novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chama a conta, que chama o setextrato \par
+\par
+\par
+\par
+\par
+\par
+\par
+ se a conta tiver sido deletada informar \par
+\par
+\par
+\par
+\par
+\par
+ novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+\par
+\par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+\par
+\par
+\par
+ chama a conta, que chama o setextrato \par
+\par
+\par
+ novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+ chama a conta, que chama o setextrato \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    76                                             \{\par
+   81     if(conta[agencia].getTipo() == 1)\{\par
+   82     if(conta[agencia].getLimite() == 2)\{\par
+   83         int novo;\par
+   85         if(s > 1000)\{\par
+   86             cout <<"Saque n\'E3o permitido"<<endl;\par
+   87         \}\par
+   88         else\{\par
+   89         novo=conta[agencia].getsaldo()-s;\par
+   90         if(novo<0)\{\par
+   91             cout <<"Sem dinheiro o suficiente"<<endl;\par
+   92         \}else\{\par
+   94             conta[agencia].setsaldo(novo);\par
+   95             cout <<"Saque efetuado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+   96         \}\par
+   98         conta[agencia].setextrato(3,s);\par
+   99     \}\par
+  100 \}\par
+  101     else\{\par
+  103     if(conta[agencia].getagencia() < 0)\{\par
+  104         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  105     \}\par
+  106     else\{\par
+  107     int novo;\par
+  109         novo=conta[agencia].getsaldo()-s;\par
+  110         if(novo<0)\{\par
+  111             cout <<"Sem dinheiro o suficiente"<<endl;\par
+  112         \}else\{\par
+  114             conta[agencia].setsaldo(novo);\par
+  115             cout <<"Saque efetuado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+  116         \}\par
+  118         conta[agencia].setextrato(3,s);\par
+  119         \}\par
+  120     \}\par
+  121 \}\par
+  122 else\{\par
+  123     int novo;\par
+  125         novo=conta[agencia].getsaldo()-s;\par
+  126         if(novo<0)\{\par
+  127             cout <<"Sem dinheiro o suficiente"<<endl;\par
+  128         \}else\{\par
+  130             conta[agencia].setsaldo(novo);\par
+  131             cout <<"Saque efetuado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+  132         \}\par
+  134         conta[agencia].setextrato(3,s);\par
+  135 \}\par
+  136 \}\par
+}
+}
+{\xe \v transferencia\:procedimentos.cpp}
+{\xe \v procedimentos.cpp\:transferencia}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void transferencia (int  {\i agencia}, {\b Conta} *  {\i conta}, int  {\i agencia1}, int  {\i s})}}
+\par
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o do m\'E9todo transferencia }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo transferencia, recebendo como par\'E2metro uma agencia, um ponteiro para a classe conta, agencia1 no qual representa a agencia da outra conta para transferencia e s \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i novo} \cell }{\cell }
+{\row }
+}
+se a conta tiver sido deletada informar \par
+\par
+\par
+\par
+ novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+\par
+ conta chama o m\'E9todo setsaldo com os par\'E2metros do getsaldo \par
+\par
+ chama a conta, e chama o m\'E9todo setsaldo \par
+ chama a conta, que chama o setextrato \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   171                                                                  \{\par
+  177     if(conta[agencia].getagencia() < 0 || conta[agencia1].getagencia() < 0)\{\par
+  178         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  179     \}\par
+  180     else\{\par
+  181     int saldo;\par
+  183         saldo=conta[agencia].getsaldo()-s;\par
+  185         conta[agencia1].setsaldo(conta[agencia1].getsaldo()+s);\par
+  186         if(saldo<0)\{\par
+  187             cout <<"N\'E3o h\'E1 a quantia digitada"<<endl;\par
+  188         \}else\{\par
+  190             conta[agencia].setsaldo(saldo);\par
+  191             cout <<"Transfer\'EAncia realizada, seu novo saldo \'E9: "<<saldo<<"RS"<<endl;\par
+  192         \}\par
+  194         conta[agencia].setextrato(5,s);\par
+  195         \}\par
+  196 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+procedimentos.h File Reference\par \pard\plain 
+{\tc\tcl2 \v procedimentos.h}
+{\xe \v procedimentos.h}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao dos m\'E9todos dos par\'E2metros }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "cabecalho.h"}\par
+{\f2 #include "conta.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b criarconta} (int n, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo criarconta, recebendo como par\'E2metro um n e um ponteiro para a classe conta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b deletarconta} (int a, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo deletarconta, recebendo como par\'E2metro um a e um ponteiro para a classe conta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b extrato} (int n, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo extrato, recebendo como par\'E2metro um n e um ponteiro para a classe conta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b saque} (int agencia, int s, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo saque, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b depositar} (int agencia, int s, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo depositar, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b emissaosaldo} (int agencia, {\b Conta} *conta)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo emissaosaldo, recebendo como par\'E2metro uma agencia e um ponteiro para a classe conta }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b transferencia} (int agencia, {\b Conta} *conta, int agencia1, int s)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo transferencia, recebendo como par\'E2metro uma agencia, um ponteiro para a classe conta, agencia1 no qual representa a agencia da outra conta para transferencia e s }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7ao dos m\'E9todos dos par\'E2metros \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Since:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 12/05/2018 \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Date:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid 15/04/2018 \par
+}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v criarconta\:procedimentos.h}
+{\xe \v procedimentos.h\:criarconta}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void criarconta (int  {\i n}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo criarconta, recebendo como par\'E2metro um n e um ponteiro para a classe conta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo criarconta, recebendo como par\'E2metro um n e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cria\'E7\'E3o dos par\'E2metros int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i limite} \cell }{que representa o limite da conta \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tipo} \cell }{que representa o tipo da conta(conta corrente ou poupan\'E7a)\cell }
+{\row }
+}
+Cria\'E7\'E3o de uma condicional, caso tipo seja igual a 1, cria-se a conta corrente \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setagencia, que recebe o par\'E2metro n \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setnumero, que recebe o par\'E2metro 1000-n \par
+\par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setsaldo, que recebe o par\'E2metro 0 \par
+\par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setLimite, que recebe o par\'E2metro limite \par
+\par
+\par
+\par
+\par
+ na conta determinada por n, chama o setTipo, que recebe o par\'E2metro tipo \par
+\par
+\par
+\par
+ na conta determinada por n, chama o setagencia, que recebe o par\'E2metro n \par
+\par
+\par
+ na conta determinada por n, chama o setnumero, que recebe o par\'E2metro 1000-n \par
+\par
+ na conta determinada por n, chama o setsaldo, que recebe o par\'E2metro 0 \par
+ na conta determinada por n, chama o setTipo, que recebe o par\'E2metro tipo \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    13                                     \{\par
+   19     int limite,tipo;\par
+   20     cout << "Qual o tipo da conta (1 - Conta corrente/2 - Conta poupan\'E7a)" <<endl;\par
+   21     cin >> tipo;\par
+   23     if(tipo == 1)\{\par
+   24     cout << "Qual o limite da conta(1 - Saques ilimitados/2 - Saque de at\'E9 1000R$)" << endl;\par
+   25     cin >> limite;\par
+   27         conta[n].setagencia(n);\par
+   28         cout <<"\\nSua conta foi criada:"<<endl;\par
+   29         cout <<"Ag\'EAncia: "<<n<<endl;\par
+   31         conta[n].setnumero(1000-n);\par
+   32         cout <<"N\'FAmero da conta: "<<1000-n<<endl;\par
+   34         conta[n].setsaldo(0);\par
+   35         cout <<"Seu saldo atual: "<<0<<endl;\par
+   37         conta[n].setLimite(limite);\par
+   38         cout << "Seu limite \'E9 do tipo " << limite << endl;\par
+   40         conta[n].setTipo(tipo);\par
+   41         cout << "Seu tipo de conta \'E9 Corrente" <<endl;\par
+   42     \}\par
+   43 \par
+   44     else\{\par
+   46         conta[n].setagencia(n);\par
+   47         cout <<"\\nSua conta foi criada:"<<endl;\par
+   48         cout <<"Ag\'EAncia: "<<n<<endl;\par
+   50         conta[n].setnumero(1000-n);\par
+   51         cout <<"N\'FAmero da conta: "<<1000-n<<endl;\par
+   53         conta[n].setsaldo(0);\par
+   54         cout <<"Seu saldo atual: "<<0<<endl;\par
+   55         conta[n].setTipo(tipo);\par
+   57         cout << "Seu tipo de conta \'E9 poupan\'E7a" <<endl;\par
+   58 \}\par
+   59 \}\par
+}
+}
+{\xe \v deletarconta\:procedimentos.h}
+{\xe \v procedimentos.h\:deletarconta}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void deletarconta (int  {\i a}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo deletarconta, recebendo como par\'E2metro um a e um ponteiro para a classe conta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo deletarconta, recebendo como par\'E2metro um a e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+atribui\'E7\'E3o a agencia, numero da conta e saldo para -1 \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    61                                      \{\par
+   63     conta[a].setagencia(-1);\par
+   64     conta[a].setnumero(-1);\par
+   65     conta[a].setsaldo(-1);\par
+   66 \}\par
+}
+}
+{\xe \v depositar\:procedimentos.h}
+{\xe \v procedimentos.h\:depositar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void depositar (int  {\i agencia}, int  {\i s}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo depositar, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo depositar, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+se a conta tiver sido deletada informar \par
+\par
+\par
+ novo recebe conta, que chama o getsaldo + s(saque) \par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+ chama a conta, que chama o setextrato \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   139                                                 \{\par
+  140     int novo;\par
+  142     if(conta[agencia].getagencia() < 0)\{\par
+  143         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  144     \}\par
+  145     else\{\par
+  147         novo=conta[agencia].getsaldo()+s;\par
+  148         if(s<0)\{\par
+  149             cout <<"N\'E3o foi poss\'EDvel, valor digitado negativo"<<endl;\par
+  150         \}else\{\par
+  152             conta[agencia].setsaldo(novo);\par
+  153             cout <<"Dep\'F3sito realizado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+  154         \}\par
+  156         conta[agencia].setextrato(4,s);\par
+  157         \}\par
+  158 \}\par
+}
+}
+{\xe \v emissaosaldo\:procedimentos.h}
+{\xe \v procedimentos.h\:emissaosaldo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void emissaosaldo (int  {\i agencia}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo emissaosaldo, recebendo como par\'E2metro uma agencia e um ponteiro para a classe conta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo emissaosaldo, recebendo como par\'E2metro uma agencia e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+se a conta tiver sido deletada informar \par
+ Imprime um cout informando o saldo da conta \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   160                                             \{\par
+  162     if(conta[agencia].getagencia() < 0)\{\par
+  163         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  164     \}\par
+  165     else\{\par
+  167     cout <<"Seu saldo atual: "<<conta[agencia].getsaldo()<<"RS"<<endl;\par
+  168     \}\par
+  169 \}\par
+}
+}
+{\xe \v extrato\:procedimentos.h}
+{\xe \v procedimentos.h\:extrato}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void extrato (int  {\i n}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo extrato, recebendo como par\'E2metro um n e um ponteiro para a classe conta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo extrato, recebendo como par\'E2metro um n e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+se a conta tiver sido deletada informar \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    68                                  \{\par
+   70     if(conta[n].getagencia() < 0)\{\par
+   71         cout << "A conta n\'E3o existe mais!"<< endl;\par
+   72     \}\par
+   73     conta[n].getextrato();\par
+   74 \}\par
+}
+}
+{\xe \v saque\:procedimentos.h}
+{\xe \v procedimentos.h\:saque}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void saque (int  {\i agencia}, int  {\i s}, {\b Conta} *  {\i conta})}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo saque, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo saque, recebendo como par\'E2metro uma agencia, s e um ponteiro para a classe conta \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i novo} \cell }{\cell }
+{\row }
+}
+novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+ chama a conta, que chama o setextrato \par
+\par
+\par
+\par
+\par
+\par
+\par
+ se a conta tiver sido deletada informar \par
+\par
+\par
+\par
+\par
+\par
+ novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+\par
+\par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+\par
+\par
+\par
+ chama a conta, que chama o setextrato \par
+\par
+\par
+ novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+ chama a conta, que chama o setsaldo com o par\'E2metro novo, para substituir o saldo anterior \par
+ chama a conta, que chama o setextrato \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    76                                             \{\par
+   81     if(conta[agencia].getTipo() == 1)\{\par
+   82     if(conta[agencia].getLimite() == 2)\{\par
+   83         int novo;\par
+   85         if(s > 1000)\{\par
+   86             cout <<"Saque n\'E3o permitido"<<endl;\par
+   87         \}\par
+   88         else\{\par
+   89         novo=conta[agencia].getsaldo()-s;\par
+   90         if(novo<0)\{\par
+   91             cout <<"Sem dinheiro o suficiente"<<endl;\par
+   92         \}else\{\par
+   94             conta[agencia].setsaldo(novo);\par
+   95             cout <<"Saque efetuado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+   96         \}\par
+   98         conta[agencia].setextrato(3,s);\par
+   99     \}\par
+  100 \}\par
+  101     else\{\par
+  103     if(conta[agencia].getagencia() < 0)\{\par
+  104         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  105     \}\par
+  106     else\{\par
+  107     int novo;\par
+  109         novo=conta[agencia].getsaldo()-s;\par
+  110         if(novo<0)\{\par
+  111             cout <<"Sem dinheiro o suficiente"<<endl;\par
+  112         \}else\{\par
+  114             conta[agencia].setsaldo(novo);\par
+  115             cout <<"Saque efetuado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+  116         \}\par
+  118         conta[agencia].setextrato(3,s);\par
+  119         \}\par
+  120     \}\par
+  121 \}\par
+  122 else\{\par
+  123     int novo;\par
+  125         novo=conta[agencia].getsaldo()-s;\par
+  126         if(novo<0)\{\par
+  127             cout <<"Sem dinheiro o suficiente"<<endl;\par
+  128         \}else\{\par
+  130             conta[agencia].setsaldo(novo);\par
+  131             cout <<"Saque efetuado, seu novo saldo: "<<novo<<"RS"<<endl;\par
+  132         \}\par
+  134         conta[agencia].setextrato(3,s);\par
+  135 \}\par
+  136 \}\par
+}
+}
+{\xe \v transferencia\:procedimentos.h}
+{\xe \v procedimentos.h\:transferencia}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void transferencia (int  {\i agencia}, {\b Conta} *  {\i conta}, int  {\i agencia1}, int  {\i s})}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo transferencia, recebendo como par\'E2metro uma agencia, um ponteiro para a classe conta, agencia1 no qual representa a agencia da outra conta para transferencia e s }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+chamada do m\'E9todo transferencia, recebendo como par\'E2metro uma agencia, um ponteiro para a classe conta, agencia1 no qual representa a agencia da outra conta para transferencia e s \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+int {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Parameters:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i novo} \cell }{\cell }
+{\row }
+}
+se a conta tiver sido deletada informar \par
+\par
+\par
+\par
+ novo recebe conta, que chama o getsaldo - s(saque) \par
+\par
+\par
+ conta chama o m\'E9todo setsaldo com os par\'E2metros do getsaldo \par
+\par
+ chama a conta, e chama o m\'E9todo setsaldo \par
+ chama a conta, que chama o setextrato \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   171                                                                  \{\par
+  177     if(conta[agencia].getagencia() < 0 || conta[agencia1].getagencia() < 0)\{\par
+  178         cout << "A conta n\'E3o existe mais!"<< endl;\par
+  179     \}\par
+  180     else\{\par
+  181     int saldo;\par
+  183         saldo=conta[agencia].getsaldo()-s;\par
+  185         conta[agencia1].setsaldo(conta[agencia1].getsaldo()+s);\par
+  186         if(saldo<0)\{\par
+  187             cout <<"N\'E3o h\'E1 a quantia digitada"<<endl;\par
+  188         \}else\{\par
+  190             conta[agencia].setsaldo(saldo);\par
+  191             cout <<"Transfer\'EAncia realizada, seu novo saldo \'E9: "<<saldo<<"RS"<<endl;\par
+  192         \}\par
+  194         conta[agencia].setextrato(5,s);\par
+  195         \}\par
+  196 \}\par
+}
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

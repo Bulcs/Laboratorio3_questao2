@@ -1,19 +1,22 @@
+/**
+* @file main.cpp
+* @brief criaçao do main
+* @since 12/05/2018
+* @date 15/04/2018
+*/
 #include <iostream>
-#include "menu.h"
-#include "CriarConta.h"
-#include "saque.h"
-using namespace std;
-
-int main(int argc, char const *argv[])
-{
-	char sair='s';
-
-	while(sair == 's'){
-	Menu m;
-	m.getMenu();
-	cout << "Fazer mais alguma operação?[s/n]";
-	cin >> sair;
-	cout <<"\n";
-	}
+#include "cabecalho.h"
+#include "conta.h"
+#include "procedimentos.h"
+/** 
+*@brief Chamada do main
+*/
+int main(){
+	/**@brief Instanciação do objeto conta */
+	Conta *conta;
+	conta=new Conta[100];
+	/**@brief chamando o método cabeccalho que recebe como parâmetro conta */
+	cabeccalho(conta);
 	return 0;
 }
+
